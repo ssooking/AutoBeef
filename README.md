@@ -1,4 +1,5 @@
 ###a simple demo to autorun beef modules
+See the page http://www.freebuf.com/network/137662.html
 
 ![](https://raw.githubusercontent.com/ssooking/AutoBeef/master/autobeef.png) 
 
