@@ -1,6 +1,6 @@
 ### a simple demo to autorun beef modules
 
-See the page http://www.freebuf.com/network/137662.html
+See the blog http://www.cnblogs.com/ssooking/p/6959239.html or page http://www.freebuf.com/network/137662.html
 
 ![](https://raw.githubusercontent.com/ssooking/AutoBeef/master/autobeef.png) 
 
