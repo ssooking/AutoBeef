@@ -17,11 +17,11 @@ def getauthkey(host):
         "username":"beef",
         "password":"beef"
     }
-    jdata = json.dumps(logindata)             # 对数据进行JSON格式化编码
-    req = urllib2.Request(apiurl, jdata)      # 生成页面请求的完整数据
-    response = urllib2.urlopen(req)           # 发送页面请求
-    resdata = response.read()                 # 获取服务器返回的页面信息，数据类型为str
-    jsondata =  json.loads(resdata)	      	  # 把数据解析成python对象，此时返回dict数据
+    jdata = json.dumps(logindata)             
+    req = urllib2.Request(apiurl, jdata)  
+    response = urllib2.urlopen(req)           
+    resdata = response.read()   
+    jsondata =  json.loads(resdata)	      	 
     return jsondata['token']
 
 def getHookedBrowsersSession(host,authkey):
